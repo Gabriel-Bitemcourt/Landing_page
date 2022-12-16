@@ -1,0 +1,111 @@
+@import url(./reset.css);
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+section {
+  display: flex;
+  height: 100vh;
+  padding: 2em 4em 0em 4em;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+}
+section#primeira-secao {
+  justify-content: space-between;
+  flex-direction: column;
+  background-image: url(../img/Background.png);
+}
+
+section#primeira-secao h1 {
+  font-size: 35px;
+  font-weight: bold;
+}
+section#primeira-secao p {
+  font-size: 15px;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.container {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  text-align: center;
+  padding: 0em 6em 0 6em;
+  gap: 1em;
+}
+
+#imagen-produto {
+  max-height: 75%;
+}
+section#segunda-secao {
+  align-items: center;
+  display: flex;
+  background-color: white;
+}
+
+section#segunda-secao h1 {
+  font-size: 35px;
+  font-weight: bold;
+}
+
+section#segunda-secao p {
+  font-size: 20px;
+}
+
+.conatiner2 {
+  justify-content: space-between;
+  display: flex;
+  height: 40%;
+  flex-direction: column;
+}
+
+#butao {
+  display: flex;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 0em 4em 4em 4em;
+}
+
+#inline {
+  display: flex;
+  gap: 1em;
+}
+
+button {
+  padding: 10px 8px;
+  color: white;
+  background: black;
+  border: 1px solid black;
+  border-radius: 4px;
+  text-align: center;
+  user-select: none;
+  cursor: pointer;
+  align-items: center;
+}
+
+button#btn {
+  color: black;
+  border: 0px;
+  background-color: transparent;
+}
+
+button#btn2 {
+  width: 150px;
+}
+
+button#btn3 {
+  align-content: center;
+  width: 150px;
+}
